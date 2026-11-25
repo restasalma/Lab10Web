@@ -1,0 +1,184 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #263238;
+}
+
+.container {
+    max-width: 960px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 24px;
+}
+
+header, footer {
+    padding: 16px;
+    background: #eaf2f8;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+    padding: 14px 0;
+}
+
+nav a {
+    color: #145a86;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    min-height: 220px;
+    padding: 16px 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: #2d6a9f;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #1d4f78;
+}
+
+/* Form tambah pengguna */
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.form-row label {
+    font-weight: normal;
+}
+
+.form-row input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.form-row .btn {
+    background-color: #2d6a9f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-row .btn:hover {
+    background-color: #1d4f78;
+}
+
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 25px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #dceaf5;
+    color: #23415c;
+}
+
+.data-table img {
+    width: 70px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+/* Tampilan tabel data barang */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.data-table th {
+    background-color: #dceaf5;
+    color: #244967;
+    padding: 14px 12px;
+    text-align: center;
+    border: 1px solid #c5d3df;
+    white-space: nowrap;
+}
+
+.data-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #d5dce3;
+    vertical-align: middle;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f5f8fb;
+}
+
+.data-table tr:hover {
+    background-color: #edf4fa;
+}
+
+.data-table img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.data-table a {
+    color: #1769aa;
+    text-decoration: none;
+    margin: 0 4px;
+}
+
+.data-table a:hover {
+    text-decoration: underline;
+}
+
